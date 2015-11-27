@@ -3,6 +3,7 @@ from flask import Flask, jsonify
 from flask import abort
 from flask import make_response
 from flask import request
+from flask import render_template
 
 app = Flask(__name__)
 
@@ -82,6 +83,10 @@ def check_item_fields(req):
     if not req.json or not 'name' in req.json:
         abort(400)
 
+@app.route('/myWishList/api/v1.0/', methods=['GET'])
+def get_greeting(name=None):
+    return render_template('index.html')
+        
 
 # Get item list by user id (not quite)
 @app.route('/myWishList/api/v1.0/list/<int:user_id>', methods=['GET'])
