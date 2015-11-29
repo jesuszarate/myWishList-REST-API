@@ -1,0 +1,50 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Nov 29 10:17:41 2015
+;; Desktop file format version 206
+;; Emacs version 22.1.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/jesuszarate/Projects/myWishListServer/templates/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  nil
+  3
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-create-buffer 206
+  "/Users/jesuszarate/Projects/myWishListServer/templates/index.html"
+  "index.html"
+  'html-mode
+  nil
+  602
+  '(448 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/jesuszarate/Projects/myWishListServer/app.py"
+  "app.py"
+  'python-mode
+  nil
+  2481
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
